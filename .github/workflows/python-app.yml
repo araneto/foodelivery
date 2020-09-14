@@ -23,6 +23,10 @@ jobs:
     - name: Install dependencies
       run: |
         make install
+
+    - name: Database Migrations
+        run: |
+          make init_dbkk
     
     - name: Run tests
       run: |
