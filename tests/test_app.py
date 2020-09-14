@@ -9,3 +9,4 @@ def test_config_is_loaded(config):
 
 def test_request_returs_404(client):
     assert client.get('/url_que_nao_existe').status_code == 404
+
