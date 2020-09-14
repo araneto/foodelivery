@@ -13,4 +13,3 @@ def init_app(app):
     @app.cli.command()
     def list_orders():
         click.echo("List of orders")
-

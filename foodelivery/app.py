@@ -15,6 +15,7 @@ from foodelivery.ext import cli
 from foodelivery.ext import auth
 from foodelivery.ext import admin
 
+
 def create_app():
     """Factory to create a Flask app based on factory pattern"""
     app = Flask(__name__)
